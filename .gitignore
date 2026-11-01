@@ -5,6 +5,14 @@
 *.pem
 *.key
 *.p12
+*.pfx
+.netrc
+.npmrc
+.pypirc
+.aws/
+.ssh/
+credentials*.json
+secrets*.json
 .venv/
 __pycache__/
 *.py[cod]

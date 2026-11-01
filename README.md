@@ -114,4 +114,6 @@ To use your own designs, add a vehicle folder with matching views and edit `flee
 
 ## License
 
-The code, configuration and written documentation are [MIT licensed](LICENSE). Reference images and screenshots have separate terms in [ASSETS.md](ASSETS.md). This is a source-code companion, not the twelve-vehicle download pack.
+**Use this freely, including commercially.** The code, configuration and written documentation are [MIT licensed](LICENSE). The included reference images and David's rights in screenshots/renders are dedicated to the public domain under [CC0](licenses/CC0-1.0.txt): copy, change, redistribute or sell them without asking permission or giving attribution.
+
+**Whatever you create with the tool is yours to use.** David claims no rights in your outputs and requires no royalties, attribution, approval or source-code release for them. Tripo's service terms and rights in third-party inputs still apply. See [ASSETS.md](ASSETS.md) for the full permission statement. This source-code companion does not include the twelve-vehicle download pack.

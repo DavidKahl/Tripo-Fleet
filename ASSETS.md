@@ -1,7 +1,13 @@
-# Reference images and screenshots
+# Freely usable reference images and screenshots
 
-The MIT license covers the source code, configuration and written documentation. It does not cover the image files under `concepts/` or `docs/images/`, or grant rights to third-party software, trademarks or scene assets visible in screenshots.
+David Kahl dedicates his copyright and related rights, if any, in the image files under `concepts/` and `docs/images/` to the public domain under [CC0 1.0 Universal](licenses/CC0-1.0.txt).
 
-The concept images were generated with ImageGen for the episode's hover-vehicle workflow. They are included as working reference inputs so you can inspect and run the example. The screenshots and fleet renders illustrate the actual production process. No separate redistribution license for this media is granted here; contact David Kahl if you need to redistribute the images themselves.
+You may use, copy, modify, redistribute and sell these reference images and renders, including in commercial projects, without asking permission or giving attribution. The concept images were generated with ImageGen for the episode; the screenshots and fleet renders show the production workflow. The [code license is MIT](LICENSE).
 
-Generated 3D models, raw API responses, textures, Unreal content and the GeometryForge project are not distributed in this repository. Your use of Tripo and the models you generate is governed by your agreement with Tripo. See [Tripo's Developer Platform](https://developers.tripo3d.ai/) for its current terms.
+## Whatever you create is yours to use
+
+David Kahl claims no rights in your generated models, textures, renders, games, modifications or other creations made using this project or its reference images. You may keep them private, modify them, share them, sell them or use them commercially. You owe David no royalties, attribution, approval or source-code release for your creations. The MIT notice requirement applies when redistributing the project's code; using the tool does not apply that license to your outputs.
+
+This permission covers the rights David can grant. Third-party software, trademarks and other third-party content visible in screenshots retain their own rights. Using Tripo's service and its generated outputs remains subject to [Tripo's terms](https://developers.tripo3d.ai/en/terms) and the rights in any inputs you supply. Tripo's API may charge credits; this repository and David's permissions are free.
+
+The generated twelve-vehicle model pack, raw API responses, textures, Unreal project and GeometryForge project are not included in this source repository.
