@@ -12,6 +12,18 @@ The episode compares my GeometryForge pipeline with Tripo: one taxi up close, ph
 
 *The twelve selected vehicles from the episode. Length is normalized; the generated proportions and visible imperfections are preserved.*
 
+## Download the free twelve-vehicle pack
+
+**[Download GLB models](https://github.com/DavidKahl/Tripo-Fleet/releases/download/vehicle-pack-v1.0.0/TripoFleet-Vehicles-GLB-v1.0.0.zip)** · **[Download FBX + PBR models](https://github.com/DavidKahl/Tripo-Fleet/releases/download/vehicle-pack-v1.0.0/TripoFleet-Vehicles-FBX-PBR-v1.0.0.zip)**
+
+All twelve selected vehicles are available as ready-to-use downloads. No API key, Python install or generation credits are needed. Models, textures and preview renders are offered under CC0 for free personal and commercial use, including modification, redistribution and sale, with no attribution required by David.
+
+**[Browse the vehicle list and individual screenshots](docs/vehicle-pack.md)** · **[Release files and checksums](https://github.com/DavidKahl/Tripo-Fleet/releases/tag/vehicle-pack-v1.0.0)**
+
+![Side views of all twelve included vehicles](docs/images/fleet-side-views.png)
+
+While this repository is private, downloads require repository access. Both ZIPs include the vehicle list, preview images, license, import notes and file-hash manifests. The GLBs have embedded PBR textures; the FBX package also includes companion texture folders and separate PBR maps.
+
 ## Start with one taxi
 
 You need **Python 3.11+**, [uv](https://docs.astral.sh/uv/getting-started/installation/), and a Tripo API key with API credits when you decide to generate. For the configured P2 quad output, also install [Blender](https://www.blender.org/download/) for local FBX conversion. GeometryForge and Unreal are optional downstream tools; neither is required to run this repo.
@@ -82,7 +94,7 @@ output/
     taxi_city_tripo.glb, normalize.json, textures/
 ```
 
-`output/` is entirely ignored by Git: raw task responses can contain signed download URLs, and requests contain uploaded-file tokens. Selected documentation images and sanitized measurements live under `docs/` instead. Model downloads are not included in this source repository.
+`output/` is entirely ignored by Git: raw task responses can contain signed download URLs, and requests contain uploaded-file tokens. Selected documentation images and sanitized measurements live under `docs/`. The ready-to-use vehicle models are supplied as release downloads, separately from the source tree.
 
 ### 4. Inspect and use the normalized model
 
@@ -116,4 +128,4 @@ To use your own designs, add a vehicle folder with matching views and edit `flee
 
 **Use this freely, including commercially.** The code, configuration and written documentation are [MIT licensed](LICENSE). The included reference images and David's rights in screenshots/renders are dedicated to the public domain under [CC0](licenses/CC0-1.0.txt): copy, change, redistribute or sell them without asking permission or giving attribution.
 
-**Whatever you create with the tool is yours to use.** David claims no rights in your outputs and requires no royalties, attribution, approval or source-code release for them. Tripo's service terms and rights in third-party inputs still apply. See [ASSETS.md](ASSETS.md) for the full permission statement. This source-code companion does not include the twelve-vehicle download pack.
+**Whatever you create with the tool or vehicle pack is yours to use.** David claims no rights in your outputs and requires no royalties, attribution, approval or source-code release for them. The vehicle models, textures and preview renders are offered under CC0. Tripo's service terms and rights in third-party inputs still apply. See [ASSETS.md](ASSETS.md) for the full permission statement.

@@ -1,0 +1,301 @@
+{
+  "version": "v1.0.0",
+  "license": "CC0-1.0",
+  "vehicle_count": 12,
+  "units": "metres",
+  "glb_axes": {
+    "up": "+Y",
+    "forward": "+Z"
+  },
+  "fbx_orientation": "Native +X nose retained; importer uses FBX axis metadata.",
+  "vehicles": [
+    {
+      "id": "cargo_utility",
+      "name": "Cargo Utility",
+      "dimensions_m": {
+        "length": 9.6,
+        "width": 5.032144601856375,
+        "height": 3.5783097215437225
+      },
+      "glb_triangles": 48711,
+      "native_polygon_vertex_counts": {
+        "3": 7829,
+        "4": 20441
+      },
+      "glb": {
+        "file": "vehicles/cargo_utility/cargo_utility.glb",
+        "bytes": 12012328,
+        "sha256": "8c2872f5ea89f731a04390e9b1644ff1b8d8a54731a16066423455ae3ef84601"
+      },
+      "fbx": {
+        "file": "vehicles/cargo_utility/cargo_utility.fbx",
+        "bytes": 3646860,
+        "sha256": "f937539b766caefd95fe08dd5b43cc95636cfd5f82585544ad4396829fd7fe8e"
+      }
+    },
+    {
+      "id": "cargo_freighter",
+      "name": "Cargo Freighter",
+      "dimensions_m": {
+        "length": 9.0,
+        "width": 5.122129946262824,
+        "height": 3.6976062530532485
+      },
+      "glb_triangles": 49105,
+      "native_polygon_vertex_counts": {
+        "3": 8143,
+        "4": 20481
+      },
+      "glb": {
+        "file": "vehicles/cargo_freighter/cargo_freighter.glb",
+        "bytes": 12443992,
+        "sha256": "8d4a6e2a34c284d8160ff295d14cb05753db47848f898c32c8bbf5262bc567df"
+      },
+      "fbx": {
+        "file": "vehicles/cargo_freighter/cargo_freighter.fbx",
+        "bytes": 3484668,
+        "sha256": "69f36ca939001f6b0549fc2b173d2a3a29a5e8a5dc22f2497cad81f1d8cc399b"
+      }
+    },
+    {
+      "id": "passenger_shuttle",
+      "name": "Passenger Shuttle",
+      "dimensions_m": {
+        "length": 9.0,
+        "width": 3.468978993649243,
+        "height": 3.6360527601367854
+      },
+      "glb_triangles": 52448,
+      "native_polygon_vertex_counts": {
+        "3": 6364,
+        "4": 23042
+      },
+      "glb": {
+        "file": "vehicles/passenger_shuttle/passenger_shuttle.glb",
+        "bytes": 12225480,
+        "sha256": "653631744dd35844ffaa9559d21a73818f5ac5092fadb57a5666fa90fd0a9751"
+      },
+      "fbx": {
+        "file": "vehicles/passenger_shuttle/passenger_shuttle.fbx",
+        "bytes": 3475916,
+        "sha256": "0ce15fd82ef5ce7258b78df4f506b144e05b20e0147c797b40d240a9cded956e"
+      }
+    },
+    {
+      "id": "limosine",
+      "name": "Limousine",
+      "dimensions_m": {
+        "length": 8.0,
+        "width": 4.123106985832926,
+        "height": 2.247191011235955
+      },
+      "glb_triangles": 48655,
+      "native_polygon_vertex_counts": {
+        "3": 7903,
+        "4": 20376
+      },
+      "glb": {
+        "file": "vehicles/limosine/limosine.glb",
+        "bytes": 11149396,
+        "sha256": "5227f8ab79499e257fed88d5e8f51ca6684c1a7cbdc806f4524b35e29601bba3"
+      },
+      "fbx": {
+        "file": "vehicles/limosine/limosine.fbx",
+        "bytes": 3557436,
+        "sha256": "5fb0344f391756ffc1786742a134e0ae95d8ea5003d92d73f065218904cd83b7"
+      }
+    },
+    {
+      "id": "municipal_sweeper",
+      "name": "Municipal Sweeper",
+      "dimensions_m": {
+        "length": 7.2,
+        "width": 3.999218368343918,
+        "height": 3.5208597948216904
+      },
+      "glb_triangles": 51372,
+      "native_polygon_vertex_counts": {
+        "3": 9290,
+        "4": 21041
+      },
+      "glb": {
+        "file": "vehicles/municipal_sweeper/municipal_sweeper.glb",
+        "bytes": 13412224,
+        "sha256": "221f1a1b9313ffcfa7955bb8074c4c0e6609576463000d7f486e5c36c5732cc6"
+      },
+      "fbx": {
+        "file": "vehicles/municipal_sweeper/municipal_sweeper.fbx",
+        "bytes": 3875340,
+        "sha256": "de0afc6916a477efd9bb958601605a1bf4d02452be85da4f350876c540abb0b6"
+      }
+    },
+    {
+      "id": "rescue_ambulance",
+      "name": "Rescue Ambulance",
+      "dimensions_m": {
+        "length": 6.8,
+        "width": 3.444846116267709,
+        "height": 3.3983390327308256
+      },
+      "glb_triangles": 45900,
+      "native_polygon_vertex_counts": {
+        "3": 5990,
+        "4": 19955
+      },
+      "glb": {
+        "file": "vehicles/rescue_ambulance/rescue_ambulance.glb",
+        "bytes": 11898956,
+        "sha256": "1670680812e6265dd157b68b69b1e0d9ffa7eb8987d29fb1da7e4d204f57922d"
+      },
+      "fbx": {
+        "file": "vehicles/rescue_ambulance/rescue_ambulance.fbx",
+        "bytes": 3435740,
+        "sha256": "3ba082bf7ce0be39c7de99cf77da2fe4e2e9ba7cad91ee241d7b4dbe442f0dba"
+      }
+    },
+    {
+      "id": "taxi_executive",
+      "name": "Taxi Executive",
+      "dimensions_m": {
+        "length": 6.6,
+        "width": 3.3886663409868096,
+        "height": 2.234391792867611
+      },
+      "glb_triangles": 44310,
+      "native_polygon_vertex_counts": {
+        "3": 7004,
+        "4": 18653
+      },
+      "glb": {
+        "file": "vehicles/taxi_executive/taxi_executive.glb",
+        "bytes": 12054228,
+        "sha256": "d518b2ae6f59dd7ebece4d315c6a9938b56e9c6eaca6d13f5158df7e0cbb0ebf"
+      },
+      "fbx": {
+        "file": "vehicles/taxi_executive/taxi_executive.fbx",
+        "bytes": 3539852,
+        "sha256": "b374ca5665c9e32285534050ece2e553a106f5051a62ff28bbade7ff672593c8"
+      }
+    },
+    {
+      "id": "taxi_city",
+      "name": "Taxi City",
+      "dimensions_m": {
+        "length": 6.0,
+        "width": 4.25305324865657,
+        "height": 2.869565217391304
+      },
+      "glb_triangles": 46937,
+      "native_polygon_vertex_counts": {
+        "3": 7415,
+        "4": 19761
+      },
+      "glb": {
+        "file": "vehicles/taxi_city/taxi_city.glb",
+        "bytes": 13453856,
+        "sha256": "a4957a76ac4a24daad63fcb5836c4c7d3b41ac8c1c07839dffde8f187a29e5d4"
+      },
+      "fbx": {
+        "file": "vehicles/taxi_city/taxi_city.fbx",
+        "bytes": 3809612,
+        "sha256": "61c5a22a688344d2ffff0b6fa8fc5ab654ae74a4adb5a78db53284a51e69be14"
+      }
+    },
+    {
+      "id": "patrol_interceptor",
+      "name": "Patrol Interceptor",
+      "dimensions_m": {
+        "length": 5.8,
+        "width": 3.255593551538837,
+        "height": 2.4395701025891547
+      },
+      "glb_triangles": 48952,
+      "native_polygon_vertex_counts": {
+        "3": 12060,
+        "4": 18446
+      },
+      "glb": {
+        "file": "vehicles/patrol_interceptor/patrol_interceptor.glb",
+        "bytes": 12162992,
+        "sha256": "8d6b1edcf8e09b48abfdebc872a71e3bbffce8afc0dc10414cab02fde5023c7a"
+      },
+      "fbx": {
+        "file": "vehicles/patrol_interceptor/patrol_interceptor.fbx",
+        "bytes": 3839180,
+        "sha256": "db14736d8864d46bb3b0fada874fd5e5befc2a37cfb9ebce1f7674ab18fe4b07"
+      }
+    },
+    {
+      "id": "sportscar",
+      "name": "Sportscar",
+      "dimensions_m": {
+        "length": 5.0,
+        "width": 3.153395212506106,
+        "height": 1.4631167562286271
+      },
+      "glb_triangles": 44008,
+      "native_polygon_vertex_counts": {
+        "3": 5292,
+        "4": 19358
+      },
+      "glb": {
+        "file": "vehicles/sportscar/sportscar.glb",
+        "bytes": 12072032,
+        "sha256": "6aa6abfb9ce4057065d0029ef39ef5b2e6157cbd181c0bf358ccd125e318ea71"
+      },
+      "fbx": {
+        "file": "vehicles/sportscar/sportscar.fbx",
+        "bytes": 3449372,
+        "sha256": "98a0881cc857e73f8175f5afe3dc4967e9b69a03070fe4fdeb61d313d445969f"
+      }
+    },
+    {
+      "id": "courier_parcel",
+      "name": "Courier Parcel",
+      "dimensions_m": {
+        "length": 4.8,
+        "width": 2.0658524670249143,
+        "height": 2.1315095261358086
+      },
+      "glb_triangles": 45533,
+      "native_polygon_vertex_counts": {
+        "3": 7875,
+        "4": 18829
+      },
+      "glb": {
+        "file": "vehicles/courier_parcel/courier_parcel.glb",
+        "bytes": 11988256,
+        "sha256": "7cde509c5c3c1a04de56bf9df773ad1a972d517aad7c1d44e69d70f3c17ddc44"
+      },
+      "fbx": {
+        "file": "vehicles/courier_parcel/courier_parcel.fbx",
+        "bytes": 3438828,
+        "sha256": "6e00372f5bcfadb1525d3f9e09431f9c1f7b5886f7c857be5d2dc50c3aeaf89b"
+      }
+    },
+    {
+      "id": "courier_sprint",
+      "name": "Courier Sprint",
+      "dimensions_m": {
+        "length": 4.5,
+        "width": 1.6597459697117734,
+        "height": 1.813629702002931
+      },
+      "glb_triangles": 48065,
+      "native_polygon_vertex_counts": {
+        "3": 7291,
+        "4": 20387
+      },
+      "glb": {
+        "file": "vehicles/courier_sprint/courier_sprint.glb",
+        "bytes": 12195148,
+        "sha256": "d622d77fe679865883bce21e14653fbd9415bc6185244f54dce9d2965533e652"
+      },
+      "fbx": {
+        "file": "vehicles/courier_sprint/courier_sprint.fbx",
+        "bytes": 3609052,
+        "sha256": "e49caaa8f4a189181e80b9293bfa1c33152755ee8b1f1cadff4389a585cae1e7"
+      }
+    }
+  ]
+}

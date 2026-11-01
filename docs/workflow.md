@@ -76,4 +76,4 @@ The runner caps concurrency at five. Your account may have a lower limit; reduce
 
 Keep `output/` intact while reviewing results: state, ledger, original FBX/GLB, task responses, requests, textures, conversion reports and normalization reports belong together. Signed URLs and file tokens are not suitable documentation examples. Git ignores the directory, private concept prompts, historical image variants, local model selections and production handoffs.
 
-The repo contains selected input views and documentation screenshots. It does not include an API key, raw episode tasks, generated-model pack, Blender working scene, GeometryForge recipe or Unreal project.
+The source tree contains selected input views and documentation screenshots. The [twelve-vehicle pack](vehicle-pack.md) is available as a release download. No API key, raw episode tasks, Blender working scene, GeometryForge recipe or Unreal project is included.
