@@ -1,0 +1,281 @@
+{
+  "snapshot_date": "2026-11-01",
+  "scope": "All recorded episode attempts, not only the selected deliveries",
+  "source": "Local output/<vehicle>/attempt-*/state.json and normalize.json; wallet/ledger reviewed for the failed ambulance task",
+  "ledger_sha256": "bb58da203c6e287d68215e37f249a6b8428767406344b045377f8fa0a8cc263e",
+  "attempts": [
+    {
+      "vehicle": "taxi_city",
+      "attempt": "attempt-01",
+      "api_status": "success",
+      "normalized_model_present": true,
+      "credits_consumed": 110.0,
+      "wall_seconds": 168.3,
+      "triangles": 46937,
+      "dimensions_m": {
+        "length": 6.0,
+        "width": 4.25305324865657,
+        "height": 2.869565217391304
+      },
+      "native_polygons": 27176,
+      "issue": "",
+      "warnings": [
+        "native polygons 27176 exceed requested budget 25000"
+      ],
+      "state_sha256": "d7a52e33923cb4f0682818d5e43f7b367b25ef9765966e7795357638404e9596"
+    },
+    {
+      "vehicle": "taxi_executive",
+      "attempt": "attempt-01",
+      "api_status": "success",
+      "normalized_model_present": true,
+      "credits_consumed": 110.0,
+      "wall_seconds": 168.3,
+      "triangles": 44310,
+      "dimensions_m": {
+        "length": 6.6,
+        "width": 3.3886663409868096,
+        "height": 2.234391792867611
+      },
+      "native_polygons": 25657,
+      "issue": "",
+      "warnings": [
+        "native polygons 25657 exceed requested budget 25000"
+      ],
+      "state_sha256": "d196a4e1b003d074e40deb8a089b333b17ca06fc620937e1692fc24e72968151"
+    },
+    {
+      "vehicle": "courier_sprint",
+      "attempt": "attempt-01",
+      "api_status": "success",
+      "normalized_model_present": true,
+      "credits_consumed": 110.0,
+      "wall_seconds": 162.5,
+      "triangles": 36374,
+      "dimensions_m": {
+        "length": 4.5,
+        "width": 1.7344894968246214,
+        "height": 1.866389838788471
+      },
+      "native_polygons": null,
+      "issue": "API success; initial GLB loading error recovered locally through FBX conversion. Later 25,000-face attempt selected.",
+      "warnings": [
+        "Native FBX contains 20599 polygons (15775 quads + 4824 triangles), exceeding the requested 20000-face budget by 599.",
+        "Visual review: gaps and distorted panels around upper rear body; requires Dave review."
+      ],
+      "state_sha256": "8afb0611746ea72987de152d8aa5f175643e650138d900972af59683d5496651"
+    },
+    {
+      "vehicle": "courier_sprint",
+      "attempt": "attempt-02",
+      "api_status": "success",
+      "normalized_model_present": true,
+      "credits_consumed": 110.0,
+      "wall_seconds": 236.2,
+      "triangles": 48065,
+      "dimensions_m": {
+        "length": 4.5,
+        "width": 1.6597459697117734,
+        "height": 1.813629702002931
+      },
+      "native_polygons": 27678,
+      "issue": "",
+      "warnings": [
+        "native polygons 27678 exceed requested budget 25000"
+      ],
+      "state_sha256": "1ee1e27efa19a8d1a5adda5f8439e745c8db18b857320e7b0291fd9777beb485"
+    },
+    {
+      "vehicle": "courier_parcel",
+      "attempt": "attempt-01",
+      "api_status": "success",
+      "normalized_model_present": true,
+      "credits_consumed": 110.0,
+      "wall_seconds": 159.5,
+      "triangles": 45533,
+      "dimensions_m": {
+        "length": 4.8,
+        "width": 2.0658524670249143,
+        "height": 2.1315095261358086
+      },
+      "native_polygons": 26704,
+      "issue": "",
+      "warnings": [
+        "native polygons 26704 exceed requested budget 25000"
+      ],
+      "state_sha256": "53b0d0ca9b25ffce3f425c530b365a418c97ccbdccef7adbcd94c965b56828ff"
+    },
+    {
+      "vehicle": "cargo_freighter",
+      "attempt": "attempt-01",
+      "api_status": "success",
+      "normalized_model_present": true,
+      "credits_consumed": 110.0,
+      "wall_seconds": 155.8,
+      "triangles": 49105,
+      "dimensions_m": {
+        "length": 9.0,
+        "width": 5.122129946262824,
+        "height": 3.6976062530532485
+      },
+      "native_polygons": 28624,
+      "issue": "",
+      "warnings": [
+        "native polygons 28624 exceed requested budget 25000"
+      ],
+      "state_sha256": "b3938843686e8285a559f6017b84061039d98104a175bb8514d82c733038eea1"
+    },
+    {
+      "vehicle": "cargo_utility",
+      "attempt": "attempt-01",
+      "api_status": "success",
+      "normalized_model_present": true,
+      "credits_consumed": 110.0,
+      "wall_seconds": 183.5,
+      "triangles": 48711,
+      "dimensions_m": {
+        "length": 9.6,
+        "width": 5.032144601856375,
+        "height": 3.5783097215437225
+      },
+      "native_polygons": 28270,
+      "issue": "",
+      "warnings": [
+        "native polygons 28270 exceed requested budget 25000"
+      ],
+      "state_sha256": "c642c7744ca876416b207acd71e45254422c5b959096ddbcceae528a18625a22"
+    },
+    {
+      "vehicle": "limosine",
+      "attempt": "attempt-01",
+      "api_status": "success",
+      "normalized_model_present": true,
+      "credits_consumed": 110.0,
+      "wall_seconds": 137.1,
+      "triangles": 48655,
+      "dimensions_m": {
+        "length": 8.0,
+        "width": 4.123106985832926,
+        "height": 2.247191011235955
+      },
+      "native_polygons": 28279,
+      "issue": "",
+      "warnings": [
+        "native polygons 28279 exceed requested budget 25000"
+      ],
+      "state_sha256": "77dadb77328f832325c46f315dc47cbfc94c10baf74956efb17f5e7ad168e577"
+    },
+    {
+      "vehicle": "sportscar",
+      "attempt": "attempt-01",
+      "api_status": "success",
+      "normalized_model_present": true,
+      "credits_consumed": 110.0,
+      "wall_seconds": 135.2,
+      "triangles": 44008,
+      "dimensions_m": {
+        "length": 5.0,
+        "width": 3.153395212506106,
+        "height": 1.4631167562286271
+      },
+      "native_polygons": 24650,
+      "issue": "",
+      "warnings": [],
+      "state_sha256": "8478b9ff2a7f6d99ca57e7828e54f4828c0ed4b5bec6a51b94326808c4eda0be"
+    },
+    {
+      "vehicle": "rescue_ambulance",
+      "attempt": "attempt-01",
+      "api_status": "failed",
+      "normalized_model_present": false,
+      "credits_consumed": null,
+      "wall_seconds": 58.8,
+      "triangles": null,
+      "dimensions_m": null,
+      "native_polygons": null,
+      "issue": "API generation failed: invalid input parameter. No credit value returned; batch wallet review recorded no net charge.",
+      "warnings": [],
+      "state_sha256": "4052d35f882e47c427b74510fbe72d3bb59b8253625ced22ea1352ccb004d531"
+    },
+    {
+      "vehicle": "rescue_ambulance",
+      "attempt": "attempt-02",
+      "api_status": "success",
+      "normalized_model_present": true,
+      "credits_consumed": 110.0,
+      "wall_seconds": 198.2,
+      "triangles": 45900,
+      "dimensions_m": {
+        "length": 6.8,
+        "width": 3.444846116267709,
+        "height": 3.3983390327308256
+      },
+      "native_polygons": 25945,
+      "issue": "",
+      "warnings": [
+        "native polygons 25945 exceed requested budget 25000"
+      ],
+      "state_sha256": "b8cb4fa227136d0f9bde3ef077a1f7134e0d97855872b21b5eb227b52d488659"
+    },
+    {
+      "vehicle": "municipal_sweeper",
+      "attempt": "attempt-01",
+      "api_status": "success",
+      "normalized_model_present": true,
+      "credits_consumed": 110.0,
+      "wall_seconds": 159.5,
+      "triangles": 51372,
+      "dimensions_m": {
+        "length": 5.2,
+        "width": 2.888324377137274,
+        "height": 2.5428431851489988
+      },
+      "native_polygons": 30331,
+      "issue": "",
+      "warnings": [
+        "native polygons 30331 exceed requested budget 25000"
+      ],
+      "state_sha256": "bfc5c7ae3ef095721432499e5ed165d4c0645e0351312f6f68eaf336c3402fdf"
+    },
+    {
+      "vehicle": "passenger_shuttle",
+      "attempt": "attempt-01",
+      "api_status": "success",
+      "normalized_model_present": true,
+      "credits_consumed": 110.0,
+      "wall_seconds": 180.8,
+      "triangles": 52448,
+      "dimensions_m": {
+        "length": 9.0,
+        "width": 3.468978993649243,
+        "height": 3.6360527601367854
+      },
+      "native_polygons": 29406,
+      "issue": "",
+      "warnings": [
+        "native polygons 29406 exceed requested budget 25000"
+      ],
+      "state_sha256": "f48904196ee9de11eca9366f0af5f8b0cf9014dda2b4d22c39839d277959b1f6"
+    },
+    {
+      "vehicle": "patrol_interceptor",
+      "attempt": "attempt-01",
+      "api_status": "success",
+      "normalized_model_present": true,
+      "credits_consumed": 110.0,
+      "wall_seconds": 146.2,
+      "triangles": 48952,
+      "dimensions_m": {
+        "length": 5.8,
+        "width": 3.255593551538837,
+        "height": 2.4395701025891547
+      },
+      "native_polygons": 30506,
+      "issue": "",
+      "warnings": [
+        "native polygons 30506 exceed requested budget 25000"
+      ],
+      "state_sha256": "c0afaa55c796fdfa022a1fae755ac05f15618f66c9e3710f6508a9a666c56854"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+# Credentials and local environments
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Private production evidence, task/file tokens and signed URLs
+/output/
+/current-models.json
+/production-cleanup-handoff*.md
+/docs/internal/
+/AGENTS.md
+
+# Only canonical API views and the public gallery
+/concepts/*
+!/concepts/README.md
+!/concepts/index.html
+!/concepts/*/
+/concepts/*/*
+!/concepts/*/front.png
+!/concepts/*/left.png
+!/concepts/*/back.png
+!/concepts/*/right.png
+/concepts/_references/
+
+# Native projects and production exports stay local
+*.blend
+*.blend1
+*.fbx
+*.glb
+*.mp4
+*.mov
+*.part
+.DS_Store
+Thumbs.db

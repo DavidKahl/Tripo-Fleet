@@ -1,0 +1,143 @@
+{
+  "_about": "Tripo fleet. ids, sizes and face budgets mirror the GeometryForge low_poly_fleet recipe so both fleets plug into the same Unreal catalog records.",
+  "concepts_dir": "concepts",
+  "source_forward": "+x",
+  "generation": {
+    "model": "P2-20260801",
+    "texture": true,
+    "pbr": true,
+    "model_seed": 0,
+    "texture_seed": 0,
+    "quad": true,
+    "face_limit": 25000,
+    "texture_quality": "standard"
+  },
+  "vehicles": [
+    {
+      "id": "taxi_city",
+      "family": "taxi",
+      "length_m": 6.0,
+      "width_m": 2.9,
+      "height_m": 2.4,
+      "generation": {
+        "face_limit": 25000
+      }
+    },
+    {
+      "id": "taxi_executive",
+      "family": "taxi",
+      "length_m": 6.6,
+      "width_m": 2.9,
+      "height_m": 2.4,
+      "generation": {
+        "face_limit": 25000
+      }
+    },
+    {
+      "id": "courier_sprint",
+      "family": "courier",
+      "length_m": 4.5,
+      "width_m": 2.0,
+      "height_m": 1.6,
+      "generation": {
+        "face_limit": 25000
+      }
+    },
+    {
+      "id": "courier_parcel",
+      "family": "courier",
+      "length_m": 4.8,
+      "width_m": 2.0,
+      "height_m": 1.6,
+      "generation": {
+        "face_limit": 25000
+      }
+    },
+    {
+      "id": "cargo_freighter",
+      "family": "cargo",
+      "length_m": 9.0,
+      "width_m": 3.8,
+      "height_m": 3.3,
+      "generation": {
+        "face_limit": 25000
+      }
+    },
+    {
+      "id": "cargo_utility",
+      "family": "cargo",
+      "length_m": 9.6,
+      "width_m": 3.8,
+      "height_m": 3.3,
+      "generation": {
+        "face_limit": 25000
+      }
+    },
+    {
+      "id": "limosine",
+      "family": "limousine",
+      "length_m": 8.0,
+      "width_m": 2.9,
+      "height_m": 2.4,
+      "generation": {
+        "face_limit": 25000
+      },
+      "notes": "Length approved by Dave; width/height are nominal review references only; uniform scaling preserves generated proportions."
+    },
+    {
+      "id": "sportscar",
+      "family": "sportscar",
+      "length_m": 5.0,
+      "width_m": 2.5,
+      "height_m": 1.6,
+      "generation": {
+        "face_limit": 25000
+      },
+      "notes": "Length approved by Dave; width/height are nominal review references only; uniform scaling preserves generated proportions."
+    },
+    {
+      "id": "rescue_ambulance",
+      "family": "rescue",
+      "length_m": 6.8,
+      "width_m": 2.8,
+      "height_m": 2.8,
+      "generation": {
+        "face_limit": 25000
+      },
+      "notes": "Uses concept-envelope length for uniform normalization; preserves generated proportions. Width/height are nominal review references."
+    },
+    {
+      "id": "municipal_sweeper",
+      "family": "municipal",
+      "length_m": 7.2,
+      "width_m": 2.6,
+      "height_m": 2.5,
+      "generation": {
+        "face_limit": 25000
+      },
+      "notes": "Length revised to 7.2 m for shuttle > sweeper > ambulance > police ordering. Current corrected model: output/scale-review-2026-10-28/municipal_sweeper/municipal_sweeper_tripo.glb. Uniform scale preserves generated proportions."
+    },
+    {
+      "id": "passenger_shuttle",
+      "family": "passenger",
+      "length_m": 9,
+      "width_m": 3.1,
+      "height_m": 3,
+      "generation": {
+        "face_limit": 25000
+      },
+      "notes": "Uses concept-envelope length for uniform normalization; preserves generated proportions. Width/height are nominal review references."
+    },
+    {
+      "id": "patrol_interceptor",
+      "family": "patrol",
+      "length_m": 5.8,
+      "width_m": 2.7,
+      "height_m": 1.9,
+      "generation": {
+        "face_limit": 25000
+      },
+      "notes": "Uses concept-envelope length for uniform normalization; preserves generated proportions. Width/height are nominal review references."
+    }
+  ]
+}
